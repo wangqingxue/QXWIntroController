@@ -7,12 +7,16 @@
 //
 
 #import "QXWAppDelegate.h"
+#import "QXWAppDelegate+IntroController.h"
 
 @implementation QXWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    [self setIntroController];
     return YES;
 }
 

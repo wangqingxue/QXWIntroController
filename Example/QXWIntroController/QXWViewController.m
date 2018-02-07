@@ -17,6 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UILabel *labelTitle = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 300, 100)];
+    labelTitle.text = @"我是导航栏控制器";
+    [self.view addSubview:labelTitle];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

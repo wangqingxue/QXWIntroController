@@ -1,0 +1,6 @@
+framework module QXWIntroController {
+  umbrella header "QXWIntroController-umbrella.h"
+
+  export *
+  module * { export * }
+}

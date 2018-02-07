@@ -1,0 +1,6 @@
+framework module Pods_QXWIntroController_Tests {
+  umbrella header "Pods-QXWIntroController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
