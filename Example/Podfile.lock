@@ -9,7 +9,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - QXWIntroController (0.1.0)
+  - QXWIntroController (0.0.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QXWIntroController: 45393a174d713f459b710929a46700c71482eab0
+  QXWIntroController: 7554690e0a9a7a0b110890b90fc9fb42113b599a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: c94cf63b9cad20985252e5a11500c7c7b449fd0f

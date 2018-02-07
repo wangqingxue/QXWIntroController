@@ -13,7 +13,8 @@
 
 - (void)setIntroController{
     QXWIntroController *introController = [[QXWIntroController alloc]init];
-    introController.introDataSource = self;
+//    introController.introDataSource = self;
+    introController.imageNameArray = @[@"5",@"4",@"3",@"2",@"1"];
     self.window.rootViewController = introController;
     __weak typeof(self) weakSelf = self;
     introController.comfirmBlock = ^{

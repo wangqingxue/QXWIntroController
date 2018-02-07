@@ -13,6 +13,12 @@
 
 
 /**
+ 自定义最后一个页面的subMitBtn
+
+ @return 自定义的Btn
+ */
+- (UIButton *)getSubMitBtn;
+/**
  通过代理返回introController翻页的每一个View
 
  @param controller introController
@@ -38,5 +44,9 @@
 @property (nonatomic, copy) void(^comfirmBlock)(void);
 //取消操作的回调
 @property (nonatomic, copy) void(^cancelBlock)(void);
+//是否在最后一个页面上显示确定按钮 true显示 false不显示 默认显示
+@property (nonatomic, assign) BOOL isShowSubmitBtn;
+//默认的imageName组成的数组
+@property (nonatomic, strong) NSArray *imageNameArray;
 
 @end

@@ -12,6 +12,7 @@
 
 #import "QXWIntroController.h"
 #import "QXWIntroDefine.h"
+#import "UIView+QXWExtension.h"
 
 FOUNDATION_EXPORT double QXWIntroControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char QXWIntroControllerVersionString[];
