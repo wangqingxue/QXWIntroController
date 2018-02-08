@@ -1,6 +1,6 @@
 # QXWIntroController
 
-[![CI Status](http://img.shields.io/travis/173636717@qq.com/QXWIntroController.svg?style=flat)](https://travis-ci.org/173636717@qq.com/QXWIntroController)
+[![CI Status](http://img.shields.io/travis/https://github.com/wangqingxue/QXWIntroController.svg?style=flat)](https://travis-ci.org/173636717@qq.com/QXWIntroController)
 [![Version](https://img.shields.io/cocoapods/v/QXWIntroController.svg?style=flat)](http://cocoapods.org/pods/QXWIntroController)
 [![License](https://img.shields.io/cocoapods/l/QXWIntroController.svg?style=flat)](http://cocoapods.org/pods/QXWIntroController)
 [![Platform](https://img.shields.io/cocoapods/p/QXWIntroController.svg?style=flat)](http://cocoapods.org/pods/QXWIntroController)
